@@ -19,12 +19,13 @@ $Neutral_White: hsl(0, 0%, 100%);
 }
 
 @mixin resButton {
+    transition: 150ms ease;
     letter-spacing: 0.5px;
     width: 180px; height: 46px;
     border-radius: 50px;
     border: none;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
     cursor: pointer;
     color: white;
     background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
