@@ -119,14 +119,14 @@ nav {
         flex-direction: column;
         justify-content: center;
         h1 {
-            font-size: 3.5em;
+            font-size: 3.25em;
             font-weight: 300;
             line-height: 1;
             color: $Primary_Dark_Blue;
         }
         p {
             max-width: 42ch;
-            font-size: 1.25em;
+            font-size: 1.0125em;
             line-height: 1.5;
             color: $Neutral_Grayish_Blue;
             margin: 35px 0;
@@ -141,7 +141,7 @@ nav {
         & img:nth-child(1) {
             position: absolute; z-index: -1;
             object-fit: cover;
-            width: 1200px;
+            width: 1250px;
             left: -90px;
             top: -240px;
         }
@@ -151,7 +151,7 @@ nav {
         & img:nth-child(3) {
             position: absolute; z-index: 2;
             object-fit: cover;
-            left: 20px;
+            left: 80px;
             top: -140px;
         }
     }

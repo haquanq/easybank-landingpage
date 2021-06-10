@@ -139,14 +139,14 @@ nav {
   -webkit-transition: 150ms ease;
   transition: 150ms ease;
   letter-spacing: 0.5px;
-  width: 180px;
+  width: 170px;
   height: 46px;
   border-radius: 50px;
   border: none;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   cursor: pointer;
-  color: white;
+  color: #fafafa;
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background: linear-gradient(90deg, #31d35c, #2bb7da);
 }
@@ -206,7 +206,7 @@ nav {
 }
 
 .sec__container__left h1 {
-  font-size: 3.5em;
+  font-size: 3.25em;
   font-weight: 300;
   line-height: 1;
   color: #2d314d;
@@ -214,7 +214,7 @@ nav {
 
 .sec__container__left p {
   max-width: 42ch;
-  font-size: 1.25em;
+  font-size: 1.0125em;
   line-height: 1.5;
   color: #9698a6;
   margin: 35px 0;
@@ -224,14 +224,14 @@ nav {
   -webkit-transition: 150ms ease;
   transition: 150ms ease;
   letter-spacing: 0.5px;
-  width: 180px;
+  width: 170px;
   height: 46px;
   border-radius: 50px;
   border: none;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   cursor: pointer;
-  color: white;
+  color: #fafafa;
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background: linear-gradient(90deg, #31d35c, #2bb7da);
 }
@@ -247,7 +247,7 @@ nav {
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 1200px;
+  width: 1250px;
   left: -90px;
   top: -240px;
 }
@@ -261,7 +261,7 @@ nav {
   z-index: 2;
   -o-object-fit: cover;
      object-fit: cover;
-  left: 20px;
+  left: 80px;
   top: -140px;
 }
 
@@ -430,14 +430,14 @@ footer {
   -webkit-transition: 150ms ease;
   transition: 150ms ease;
   letter-spacing: 0.5px;
-  width: 180px;
+  width: 170px;
   height: 46px;
   border-radius: 50px;
   border: none;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   cursor: pointer;
-  color: white;
+  color: #fafafa;
   background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background: linear-gradient(90deg, #31d35c, #2bb7da);
   margin-bottom: 30px;
@@ -691,20 +691,20 @@ footer {
 }
 
 .card__container__author {
-  margin-top: 20px;
-  font-size: 0.75em;
+  margin-top: 35px;
+  font-size: 0.7em;
   color: #9698a6;
 }
 
 .card__container__title {
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 400;
   color: #2d314d;
   margin: 10px 0;
 }
 
 .card__container__text {
-  font-size: 0.8125em;
+  font-size: 0.8em;
   color: #9698a6;
   margin-bottom: 30px;
   line-height: 1.5;
