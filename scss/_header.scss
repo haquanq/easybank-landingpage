@@ -52,11 +52,34 @@ nav {
     justify-content: space-between;
     align-items: center;
     &__link {
+        display: flex;
+        align-items: center;
+        height: 100%;
         a {
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 100%;
             margin: 0 15px;
             font-size: 16px;
             font-weight: 400;
             color: $Neutral_Grayish_Blue;
+        }
+        & > a:hover::after {
+            width: 100%;
+        }
+        & > a::after {
+            position: absolute;
+            display: block;
+            content: "";
+            bottom: 0;
+            left: 0; right: 0;
+            height: 5px; width: 0;
+            background: linear-gradient(90deg, 
+            hsl(136, 65%, 51%), 
+            hsl(192, 70%, 51%)
+            );
+            transition: 200ms ease-in-out;
         }
     }
     &__btn {
@@ -91,6 +114,7 @@ nav {
     display: flex;
     height: 650px;
     &__left {
+        width: 50%; height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -112,12 +136,13 @@ nav {
         }
     }
     &__right {
+        width: 50%; height: 100%;
         position: relative;
         & img:nth-child(1) {
             position: absolute; z-index: -1;
             object-fit: cover;
             width: 1200px;
-            left: -30px;
+            left: -90px;
             top: -240px;
         }
         & img:nth-child(2) {
@@ -126,10 +151,13 @@ nav {
         & img:nth-child(3) {
             position: absolute; z-index: 2;
             object-fit: cover;
-            left: 80px;
+            left: 20px;
             top: -140px;
         }
     }
+}
+
+@media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 850px) {
@@ -174,6 +202,7 @@ nav {
             }
         }
         &__right {
+            width: 100%;
             & img:nth-child(1) {
                 display: none;
             }

@@ -44,16 +44,18 @@ let menuOpen = false
 hambu.addEventListener("click", () => {
     if (menuOpen == false) {
         hambu.classList.add("open")
+        document.querySelector("body").style.overflow = "hidden"
         menu_bg.style.display = "flex";
         setTimeout(() => {menu_bg.style.opacity = 1}, 10)
-        setTimeout(() => {menu_con.style.display = "flex"}, 200)
-        setTimeout(() => {menu_con.style.opacity = 1}, 230)
+        setTimeout(() => {menu_con.style.display = "flex"}, 150)
+        setTimeout(() => {menu_con.style.opacity = 1}, 180)
         menuOpen = true
     } else {
         hambu.classList.remove("open")
+        document.querySelector("body").style.overflow = null
         menu_con.style.opacity = null
         setTimeout(() => {menu_con.style.display = null}, 200)
-        setTimeout(() => {menu_bg.style.opacity = null}, 210)
+        setTimeout(() => {menu_bg.style.opacity = null}, 10)
         setTimeout(() => {menu_bg.style.display = null}, 410)
         menuOpen = false
     }
