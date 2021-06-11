@@ -67,6 +67,9 @@ nav {
             font-weight: 400;
             color: $Neutral_Grayish_Blue;
         }
+        a:hover {
+            color: $Primary_Dark_Blue;
+        }
         a:hover + span {
             width: 100%;
         }

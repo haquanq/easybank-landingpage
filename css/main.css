@@ -119,6 +119,10 @@ nav {
   color: #9698a6;
 }
 
+.nav__container__link a:hover {
+  color: #2d314d;
+}
+
 .nav__container__link a:hover + span {
   width: 100%;
 }
